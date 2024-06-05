@@ -22,7 +22,6 @@ const MovieItem = props => {
         {close => (
           <div className="modal-container">
             <button
-              aria-label="Submit"
               className="close-button"
               type="button"
               data-testid="closeButton"
